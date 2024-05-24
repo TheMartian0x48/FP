@@ -27,3 +27,13 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# Haskell
+
+**.hi
+**.o
+
+
+## Erlang
+**.beam
+**.dump
