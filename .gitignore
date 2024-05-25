@@ -37,3 +37,6 @@ _opam/
 ## Erlang
 **.beam
 **.dump
+
+
+**in.txt

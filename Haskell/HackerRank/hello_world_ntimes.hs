@@ -20,10 +20,15 @@ f n = do
     putStrLn "Hello World"
     f (n - 1)
 
+iter n | n == 0 = return()
+    | otherwise = do
+        iter (n - 1)
+        putStrLn "Hello World"
+
 
 main :: IO()
 main = do
     n <- readLn :: IO Int
-    f n
-    -- Print "Hello World" on a new line 'n' times.
+    -- f n
+    iter n
 
